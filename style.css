@@ -1,0 +1,182 @@
+
+
+body{
+margin:0;
+font-family:'Open Sans', sans-serif;
+background:#f2f2f2;
+color:#555;
+line-height:1.6;
+}
+
+.topo{
+background:#EED9CE;
+height:250px;
+display:flex;
+align-items:center;
+padding-left:350px;
+}
+
+.topo-info h1{
+font-family:'Playfair Display', serif;
+letter-spacing:3px;
+font-size:32px;
+margin:0;
+color:#222;
+}
+
+.menu{
+    background:#ffffff;
+    text-align:center;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#333;
+    margin:0 20px;
+    font-weight:600;
+}
+
+.menu a:hover{
+    color:#e8bfbf;
+    transition: 0.20s;
+}
+.cargo{
+margin-top:5px;
+font-style:italic;
+color:#666;
+}
+
+.contatos{
+display:flex;
+gap:70px;
+margin-top:15px;
+font-size:14px;
+color:#666;
+}
+
+.foto{
+width:200px;
+height:200px;
+object-fit:cover;
+
+position:absolute;
+top:80px;
+left:120px;
+
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.container{
+width:900px;
+margin:80px auto;
+background:white;
+display:flex;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+aside{
+width:35%;
+padding:40px 30px;
+background:#fafafa;
+border-right:1px solid #eee;
+}
+
+
+.descricao{
+font-size:14px;
+color:#777;
+margin-bottom:30px;
+}
+
+
+aside h2{
+font-family:'Playfair Display', serif;
+font-size:14px;
+letter-spacing:3px;
+color:#222;
+border-bottom:2px solid #333;
+display:inline-block;
+padding-bottom:4px;
+margin-top:30px;
+}
+
+
+ul{
+padding-left:18px;
+font-size:14px;
+color:#777;
+line-height:1.8;
+}
+
+main{
+width:65%;
+padding:40px;
+}
+
+
+main h2{
+font-family:'Playfair Display', serif;
+font-size:16px;
+letter-spacing:3px;
+color:#222;
+border-bottom:2px solid #333;
+display:inline-block;
+padding-bottom:4px;
+margin-bottom:20px;
+}
+
+
+.job{
+margin-bottom:30px;
+}
+
+
+.job-titulo{
+display:flex;
+justify-content:space-between;
+font-size:15px;
+font-weight:600;
+color:#333;
+margin-bottom:5px;
+}
+
+.data{
+color:#999;
+font-style:italic;
+font-size:13px;
+}
+
+
+p{
+font-size:14px;
+color:#777;
+}
+
+@media (max-width:900px){
+
+.container{
+flex-direction:column;
+width:95%;
+}
+
+aside, main{
+width:100%;
+}
+
+.foto{
+position:relative;
+top:0;
+left:0;
+margin:auto;
+display:block;
+margin-top:-90px;
+}
+
+.topo{
+padding-left:20px;
+}
+
+}
